@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="167.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detalles Usuario" wrappingWidth="365.388671875">
+         <font>
+            <Font name="System Bold" size="39.0" />
+         </font>
+      </Text>
+      <Label layoutX="55.0" layoutY="145.0" text="Puntos Obtenidos  -----&gt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textLabelPuntos" layoutX="360.0" layoutY="137.0" prefHeight="47.0" prefWidth="304.0" />
+      <Label layoutX="55.0" layoutY="210.0" text="Puntos Totales Usuario -----&gt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textLabelPuntosTotales" layoutX="429.0" layoutY="202.0" prefHeight="47.0" prefWidth="244.0" />
+      <Label layoutX="55.0" layoutY="275.0" text="Nombre Usuario -----&gt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textLabelUsuario" layoutX="346.0" layoutY="267.0" prefHeight="47.0" prefWidth="304.0" />
+      <Label layoutX="55.0" layoutY="340.0" text="Email Usuario -----&gt;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textLabelEmail" layoutX="321.0" layoutY="332.0" prefHeight="47.0" prefWidth="304.0" />
+      <Button fx:id="buttonMenuPrincipal" layoutX="254.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#handleButtonBack" prefHeight="45.0" prefWidth="185.0" text="Menu Principal" />
+   </children>
+</AnchorPane>
